@@ -5,8 +5,16 @@ gem 'rails', '4.2.1'
 gem 'rails-api'
 gem 'spring', :group => :development
 gem 'sqlite3'
+
 gem 'bcrypt', '~> 3.1.7'
 gem 'active_model_serializers'
+
+
+group :test do
+   gem 'rspec-rails'
+   gem 'shoulda-matchers'
+   gem 'factory_girl_rails'
+end
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
